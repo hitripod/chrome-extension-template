@@ -24,7 +24,7 @@ git remote set-url --add origin [YOUR REPO URL] # Add new origin
 Install dependencies:
 
 ```
-yarn install # or npm install
+npm install
 ```
 
 ## Usage
