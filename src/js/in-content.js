@@ -74,26 +74,26 @@ const lookupTx = (el) => {
             ];
             
 
-            res = {
-                "Individuals": {
-                    "Tx": "0x13ee7391472533a8f1cd16d1db160889ee0493fc",
-                    "FirstName": "Sidney",
-                    "LastName": "Lin",
-                    "Ssn": "001-8334-8733",
-                    "DriverLicense": "FA-3870223",
-                    "State": "CA"
-                },
-                "Businesses": {
-                    "Tx": "0xdda6898e71868f7f38396c71107b01396ad4c36a",
-                    "Name": "Coinbase Inc.",
-                    "RegNumber": "22345",
-                    "State": "CA",
-                    "Address": "548 Market St.",
-                    "Category": "Exchange",
-                    "Jurisdiction": "San Francisco, USA",
-                    "Domain": "coinbase.com"
-                }
-            }
+            // res = {
+            //     "Individuals": {
+            //         "Tx": "0x13ee7391472533a8f1cd16d1db160889ee0493fc",
+            //         "FirstName": "Sidney",
+            //         "LastName": "Lin",
+            //         "Ssn": "001-8334-8733",
+            //         "DriverLicense": "FA-3870223",
+            //         "State": "CA"
+            //     },
+            //     "Businesses": {
+            //         "Tx": "0xdda6898e71868f7f38396c71107b01396ad4c36a",
+            //         "Name": "Coinbase Inc.",
+            //         "RegNumber": "22345",
+            //         "State": "CA",
+            //         "Address": "548 Market St.",
+            //         "Category": "Exchange",
+            //         "Jurisdiction": "San Francisco, USA",
+            //         "Domain": "coinbase.com"
+            //     }
+            // }
 
 
             for (i in res) {
