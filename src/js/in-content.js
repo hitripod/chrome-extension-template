@@ -34,3 +34,9 @@ const handleBackgroundResponse = response =>
 
 // Send a message to background.js
 chrome.runtime.sendMessage('Message from in-content.js!', handleBackgroundResponse);
+
+// TODO: Replace the hash with the KYC information from TRISA here.
+var images = document.getElementsByTagName('img');
+for (var i = 0, l = images.length; i < l; i++) {
+    images[i].src = 'http://placekitten.com/' + images[i].width + '/' + images[i].height;
+}
