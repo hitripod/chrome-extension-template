@@ -1,12 +1,12 @@
 {
     "manifest_version": 2,
-    "name": "chrome-extension-template",
+    "name": "TrismaScan",
     "version": "0.0.1",
-    "description": "Chrome extension boilerplate, replace all values!",
+    "description": "TRISA Chrome extension for Etherscan",
     "icons": {
-        "16": "16x16.png",
-        "48": "48x48.png",
-        "128": "128x128.png"
+        "16": "x.png",
+        "48": "x.png",
+        "128": "x.png"
     },
     "browser_action": {
         "default_title": "Boilerplate popup!",
